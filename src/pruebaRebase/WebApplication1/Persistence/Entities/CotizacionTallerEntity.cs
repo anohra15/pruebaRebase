@@ -9,7 +9,7 @@ namespace backendRCVUcab.Persistence.Entities
     public class CotizacionTallerEntity:BaseEntity
     {
         [Required]
-        public int cantidad_piezas_reparar { get; set; }
+        public int cantidad_piezas_repara { get; set; }
         [Required]
         public double costo_reparacion { get; set; }
         [Column(TypeName = "DATE")]
